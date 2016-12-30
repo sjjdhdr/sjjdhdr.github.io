@@ -1,9 +1,11 @@
 /* Import Google Web fonts */
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+@import url('https://urdu.geo.tv/assets/front/fonts/noto/NotoNaskhArabic-Regular.eot');
 
 
 body { /* sets the page defaults e.g. background and default typography */
 background: #fff;
-font-family: "Times New Roman", Times, serif;
+font-family: "Nafees", 'Noto Serif', "Times New Roman", Times, serif;
 margin: 0;
 font-size: 20px;
 line-height: 1.5;
@@ -87,7 +89,7 @@ header a {
 
 
 .table1 {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,1);
   width: 90%;
   padding-right: 10px;
   padding-left: 10px;
@@ -99,7 +101,6 @@ header a {
   width: 95%;
   padding-right: 10px;
   padding-left: 10px;
-  
 }
 
 .aleft {
@@ -114,13 +115,7 @@ header a {
   text-align: center;
 }
 
-.top1 {
-  
-}
 
-.top2 {
-  
-}
 
 .content1 {
   color:white;
@@ -130,32 +125,11 @@ header a {
 .topheight {
   width: 80%;
   height: 80vh;
-
 }
 
 header h1 {
   font-size: 12vw;
 }
 
-/* Text blocks */
-.content {
-  margin: 0 auto;
-  position: relative;
-  overflow: visible;
-  padding: 1em 20%;
-}
-
-footer {
-
-height: 100px;
-background: #000;
-color: #eee;
-text-align: center;
-padding: 1em;
-}
-
-video#foo {
-  width: 100%;
-}
 
 
