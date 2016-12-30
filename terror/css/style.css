@@ -33,8 +33,9 @@ header {
   position:relative;
 
 }
+
 header {
-  color: #fff;
+  color: #ffffff;
   text-shadow:0 0 250px #000000;
 }
 header h1 {
@@ -78,6 +79,7 @@ header a {
 .titlestyle {
   font-size: 15vw;
   line-height: 1.4;
+  
   
 }
 .titlestyle2 {
@@ -127,6 +129,11 @@ header a {
 
 }
 
+.topheight {
+  width: 80%;
+  height: 80vh;
+
+}
 
 header h1 {
   font-size: 12vw;
