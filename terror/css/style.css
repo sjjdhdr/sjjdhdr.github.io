@@ -34,7 +34,7 @@ header {
 }
 
 header {
-  color: #ffffff;
+  color: #fff;
   text-shadow:0 0 250px #000000;
 }
 header h1 {
@@ -89,7 +89,7 @@ header a {
 
 
 .table1 {
-  background: rgba(0,0,0,1);
+  background: rgba(0,0,0,0.5);
   width: 90%;
   padding-right: 10px;
   padding-left: 10px;
