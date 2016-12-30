@@ -104,6 +104,12 @@ header a {
   background-attachment: fixed; /* the background image doesn't move when scrolling*/
   overflow: hidden;
 }
+
+.yellow {
+  color: #fff600;
+}
+
+
 .paris {
   background: url(../img/Paris2013.jpg);
   background-size: cover;
@@ -118,6 +124,7 @@ header a {
   background-size: cover;
   background-attachment: fixed;
 }
+
 
 header h1 {
   font-size: 10vw;
