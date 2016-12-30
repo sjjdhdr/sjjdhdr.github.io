@@ -12,36 +12,10 @@ line-height: 1.5;
 color: rgba(0, 0, 0, 0.74);
 }
 
-header {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #fff;
-}
+
 h2 {
   margin: 0;
 }
-figure {
-  margin: 0; /* resets the left margin in the figure*/
-}
-
-figure img {
-  max-width: 100%; /* images will shrink to fit inside the main conent column*/
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
-}
-figcaption {
-  font-size: 14px;
-  color: #555;
-}
-blockquote.left {
-    float: left;
-    margin: 0 1em 1em 0;
-    background: wheat;
-    padding: 1em;
-    font-size: 1.5em;
-    width: 33%;
-    position: relative;
-}
-
 
 .img_container, .color_conatiner {
   height: 100vh; /* this sets the height of each full width image section to that of the viewport.*/
@@ -49,39 +23,15 @@ blockquote.left {
   display: flex;
   background-position: center !important;
 }
-.video_container {
-  display: block;
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-}
 
-.slider_container {
-  width:100%;
-}
-
-.video_container header {
-  position: absolute;
-  text-align: center;
-height: 100vh;
-width: 100%;
-  top: 0;
-}
-
-.video_container header h1 {
-  position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-}
 
 
 header {
-  width: 90%;
-  height: 12vh;
-  text-align: right;
+  width: 80%;
+  height: 50vh;
   margin: auto;
+  position:relative;
+
 }
 header {
   color: #fff;
@@ -91,6 +41,8 @@ header h1 {
   margin: 0;
   font-size: 10vw;
   text-shadow:0 0 25px #000000;
+  width: 80%;
+  
 }
 header a {
   color: white;
@@ -109,25 +61,75 @@ header a {
   color: #fff600;
 }
 
-
-.paris {
-  background: url(../img/Paris2013.jpg);
+.bolan {
+  background: url(../img/bolan.jpg) no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-color: #000;
+  background-attachment: fixed; /* the background image doesn't move when scrolling*/
+  overflow: hidden;
 }
+
+
+
 .green_header {
   background: #bada55;
 }
 
-.rocks {
-  background: url(../img/IMG_2123.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+.titlestyle {
+  font-size: 15vw;
+  line-height: 1.4;
+  
+}
+.titlestyle2 {
+  font-size: 11vw;
+  line-height: 1.1;
+
+}
+
+
+.table1 {
+  background: rgba(0,0,0,0.5);
+  width: 90%;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
+
+.table2 {
+  background: rgba(0,0,0,0.5);
+  width: 95%;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
+
+.aleft {
+  text-align: left;
+}
+
+.aright {
+  text-align: right;
+}
+
+.acenter {
+  text-align: center;
+}
+
+.top1 {
+  
+}
+
+.top2 {
+  
+}
+
+.content1 {
+
 }
 
 
 header h1 {
-  font-size: 10vw;
+  font-size: 12vw;
 }
 
 /* Text blocks */
@@ -152,7 +154,6 @@ video#foo {
 }
 
 .yellow {
-  font-
   background-size: cover;
   background-attachment: fixed;
 }
