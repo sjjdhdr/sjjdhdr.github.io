@@ -22,9 +22,10 @@ h2 {
 }
 
 .fontfix2 {
-  font-size: 4vw;
+  font-size: 4vh;
   
 }
+
 
 .img_container, .color_conatiner {
   height: 100vh; /* this sets the height of each full width image section to that of the viewport.*/
