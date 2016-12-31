@@ -16,6 +16,16 @@ h2 {
   margin: 0;
 }
 
+.fontfix1 {
+  font-size: 3vw;
+  
+}
+
+.fontfix2 {
+  font-size: 4vw;
+  
+}
+
 .img_container, .color_conatiner {
   height: 100vh; /* this sets the height of each full width image section to that of the viewport.*/
   position: relative;
